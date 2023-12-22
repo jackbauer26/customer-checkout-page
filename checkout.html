@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Checkout Page</title>
+
+    <link rel="stylesheet" href="checkout.css" />
+  </head>
+  <body>
+    <main id="wp-pusher">
+      <header>
+        <nav id="nav-bar">
+          <picture class="nav-bar-items">
+            <img src="./images/wppusher-logo copy.png" alt="company-logo" />
+          </picture>
+          <menu class="nav-menu nav-bar-items">
+            <div><a href="#">Download</a></div>
+            <div><a href="#">Learn More</a></div>
+            <div><a href="#">Pricing</a></div>
+            <div><a href="#">Help</a></div>
+            <button title="account-button" id="account-btn">Account</button>
+          </menu>
+        </nav>
+      </header>
+
+      <!-- Panel Section -->
+      <section id="panel-wrapper">
+        <section id="panel">
+          <div id="details-section">
+            <!-- ---------------------------------- -->
+            <!-- left-side-of-details-section -->
+            <!-- ---------------------------------- -->
+            <div id="checkout-section">
+              <div id="title">
+                <p>Checkout</p>
+              </div>
+
+              <div id="basic-info">
+                <!-- -------------------- -->
+                <!-- title -->
+                <!-- -------------------- -->
+                <div id="tite-of-basic-info-div">
+                  <p id="num-1">1</p>
+                  <p id="basic-info-title">Your basic information</p>
+                </div>
+
+                <!-- ------------------ -->
+                <!-- form control -->
+                <!-- ------------------ -->
+                <div id="basic-info-details-wrapper">
+                  <div class="upper-section">
+                    <div class="basic-info-details" id="" title="user-details">
+                      <p>Firstname</p>
+                      <input
+                        tite="firstname"
+                        placeholder="Jane"
+                        required
+                        type="text"
+                        name="firstname"
+                        id="firstname"
+                      />
+                    </div>
+
+                    <div
+                      class="basic-info-details"
+                      id="lastname"
+                      title="user-details"
+                    >
+                      <p>Lastname</p>
+                      <input
+                        tite="lastname"
+                        placeholder="Doe"
+                        required
+                        type="text"
+                        name="lastname"
+                        id="lastname"
+                      />
+                    </div>
+                  </div>
+
+                  <div
+                    class="basic-info-details"
+                    id="email"
+                    title="user-details"
+                  >
+                    <p>Email</p>
+                    <input
+                      tite="email"
+                      placeholder="janedoe@example.com"
+                      required
+                      type="text"
+                      name="email"
+                      id="email"
+                    />
+                  </div>
+                </div>
+              </div>
+
+              <div id="payment-info">
+                <div id="payment-info-top-section">
+                  <p id="num-2">2</p>
+                  <p id="payment-info-title">Your payment information</p>
+                </div>
+                <div id="credit-card">
+                  <p>Credit Card</p>
+                  <input
+                    type="text"
+                    name=""
+                    id="credit-card-data"
+                    placeholder="Card Number"
+                  />
+                </div>
+              </div>
+
+              <div id="purchase">
+                <button type="button" id="buy-wp">Buy WP Pusher</button>
+                <div id="buy-wp-content">
+                  <p>?</p>
+                  <p>
+                    <strong>Need any help?</strong> Don’t hesitate to
+                    <a href="#"
+                      ><span id="contact-span">contact support!</span></a
+                    >
+                  </p>
+                </div>
+                <p><span>Powered by </span><strong>Stripe</strong></p>
+              </div>
+
+              <!-- -------------------------------------- -->
+              <!-- footer-section -->
+              <!-- -------------------------------------- -->
+              <footer id="footer-section">
+                <p>© 2018 WP Pusher IVS · Terms of Service</p>
+              </footer>
+            </div>
+            <!-- --------------------------------- -->
+            <!-- Aside Section -->
+            <!-- --------------------------------- -->
+            <aside id="freelancer-section">
+              <div id="side-bar-content">
+                <div id="plan">
+                    <h5>Freelancer</h5>
+                    <div id="plan-styling">
+                      <p>$</p>
+                      <p><span>99</span>/&nbsp;year</p>
+                    </div>
+                    <p>Automatically renew after 1 year</p>
+                </div>
+                <div id="details">
+                    <div class="detail-1">
+                        <img src="images/Combined Shape.png" alt="Combined Shape">
+                        <p>User on 5 client sites</p>
+                    </div>
+                    <div class="detail-1">
+                        <img src="images/Combined Shape.png" alt="Combined Shape">
+                        <p>Private repositories</p>
+                    </div>
+                    <div class="detail-1">
+                        <img src="images/Combined Shape.png" alt="Combined Shape">
+                        <p>Email Support</p>
+                    </div>
+                </div>
+
+                <div id="switch">
+                    <p>
+                        Need 20 client sites? Switch to the Agency plan.
+                    </p>
+                </div>
+
+                <div id="quote">
+                    <div id="actual-quote">
+                        <p>
+                            FTP is horrible to deal with. WP Pusher solves that issue, and the customer support is awesome!
+                        </p>
+                    </div>
+                    <div id="bitmap-div">
+                        <img src="images/Bitmap.png" alt="Bitmap Image">
+                        <p>Kirk Beard</p>
+                    </div>
+                </div>
+              </div>
+            </aside>
+          </div>
+        </section>
+      </section>
+    </main>
+  </body>
+</html>
+
+<!-- <div id="title">
+                    <p>Checkout</p>
+                </div> -->
+
+<!-- basic information -->
+<!-- <div id="basic-info"> -->
+<!-- basic-info inputs and labels -->
+
+<!-- <p id="basic-info-title">Your basic information</p>
+
+                    <div id="basic-info-details-wrapper">
+                    <div
+                        class="basic-info-details"
+                        id="firstname"
+                        title="user-details"
+                    >
+                        <p>Firstname</p>
+                        <input
+                        tite="firstname"
+                        placeholder="firstname"
+                        required
+                        type="text"
+                        name="firstname"
+                        id="firstname"
+                        />
+                    </div>
+                    <div
+                        class="basic-info-details"
+                        id="lastname"
+                        title="user-details"
+                    >
+                        <p>Lastname</p>
+                        <input
+                        tite="lastname"
+                        placeholder="lastname"
+                        required
+                        type="text"
+                        name="lastname"
+                        id="lastname"
+                        />
+                    </div>
+                    <div
+                        class="basic-info-details"
+                        id="email"
+                        title="user-details"
+                    >
+                        <p>Email</p>
+                        <input
+                        tite="email"
+                        placeholder="email"
+                        required
+                        type="text"
+                        name="email"
+                        id="email"
+                        />
+                    </div>
+                    </div>
+                </div>
+
+                <div id="payment-info">
+
+                </div>
+
+                <div id="purchase">
+
+                </div> -->
